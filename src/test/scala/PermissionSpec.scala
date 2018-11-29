@@ -30,7 +30,7 @@ class PermissionSpec extends FunSpec {
     }
   }
 
-  describe("A lawyer is granted access to one of the other lawyer cases") {
+  describe("A lawyer is granted total access to one of the other lawyer cases") {
     val lawyer = new Lawyer
     val anotherLawyer = new Lawyer
     val accessibleCase = new Case(anotherLawyer)
